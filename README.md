@@ -64,6 +64,10 @@ make
 
 # Add file to staging area (index)
 ./mygit add <file>
+
+# Or for all the files
+./mygit add .
+
 ```
 
 ## Learning Objectives

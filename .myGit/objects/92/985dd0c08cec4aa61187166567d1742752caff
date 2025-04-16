@@ -1,0 +1,44 @@
+blob 2632[
+{
+  "directory": "/home/youcef/Documents/Better_Projects/MyGit/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/mygit.dir/src/main.cpp.o -c /home/youcef/Documents/Better_Projects/MyGit/src/main.cpp",
+  "file": "/home/youcef/Documents/Better_Projects/MyGit/src/main.cpp",
+  "output": "CMakeFiles/mygit.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/youcef/Documents/Better_Projects/MyGit/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/mygit.dir/src/commands/init.cpp.o -c /home/youcef/Documents/Better_Projects/MyGit/src/commands/init.cpp",
+  "file": "/home/youcef/Documents/Better_Projects/MyGit/src/commands/init.cpp",
+  "output": "CMakeFiles/mygit.dir/src/commands/init.cpp.o"
+},
+{
+  "directory": "/home/youcef/Documents/Better_Projects/MyGit/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/mygit.dir/src/commands/HashObject.cpp.o -c /home/youcef/Documents/Better_Projects/MyGit/src/commands/HashObject.cpp",
+  "file": "/home/youcef/Documents/Better_Projects/MyGit/src/commands/HashObject.cpp",
+  "output": "CMakeFiles/mygit.dir/src/commands/HashObject.cpp.o"
+},
+{
+  "directory": "/home/youcef/Documents/Better_Projects/MyGit/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/mygit.dir/src/commands/add.cpp.o -c /home/youcef/Documents/Better_Projects/MyGit/src/commands/add.cpp",
+  "file": "/home/youcef/Documents/Better_Projects/MyGit/src/commands/add.cpp",
+  "output": "CMakeFiles/mygit.dir/src/commands/add.cpp.o"
+},
+{
+  "directory": "/home/youcef/Documents/Better_Projects/MyGit/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/mygit.dir/src/objets/Blob.cpp.o -c /home/youcef/Documents/Better_Projects/MyGit/src/objets/Blob.cpp",
+  "file": "/home/youcef/Documents/Better_Projects/MyGit/src/objets/Blob.cpp",
+  "output": "CMakeFiles/mygit.dir/src/objets/Blob.cpp.o"
+},
+{
+  "directory": "/home/youcef/Documents/Better_Projects/MyGit/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/mygit.dir/src/objets/Utilities.cpp.o -c /home/youcef/Documents/Better_Projects/MyGit/src/objets/Utilities.cpp",
+  "file": "/home/youcef/Documents/Better_Projects/MyGit/src/objets/Utilities.cpp",
+  "output": "CMakeFiles/mygit.dir/src/objets/Utilities.cpp.o"
+},
+{
+  "directory": "/home/youcef/Documents/Better_Projects/MyGit/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/mygit.dir/src/objets/index.cpp.o -c /home/youcef/Documents/Better_Projects/MyGit/src/objets/index.cpp",
+  "file": "/home/youcef/Documents/Better_Projects/MyGit/src/objets/index.cpp",
+  "output": "CMakeFiles/mygit.dir/src/objets/index.cpp.o"
+}
+]

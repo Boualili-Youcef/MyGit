@@ -34,4 +34,34 @@ namespace commands
 
         return 0;
     }
+
+    int addAll(const std::string &dirPath)
+    {
+        // Liste de fichier a ajouter
+        std::vector<std::string> filesToAdd;
+
+        // je dois parcourir tous les fichiers du repertoire
+        for (const auto &dir : fs::recursive_directory_iterator(dirPath))
+        {
+            if (fs::is_regular_file(dir))
+            {
+                std::string path = dir.path().string();
+                if (path.find(".myGit/") == std::string::npos)
+                { // pas de .myGit
+                    filesToAdd.push_back(path);
+                }
+            }
+        }
+
+        for (const auto &file : filesToAdd)
+        {
+            if (add(file) != 0)
+            {
+                std::cerr << "Erreur lors de l'ajout de " << file << std::endl;
+                return 1;
+            }
+        }
+        return 0;
+    }
+
 }

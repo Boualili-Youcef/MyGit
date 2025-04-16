@@ -45,9 +45,12 @@ int main(int argc, char *argv[])
             return 1;
         }
         std::string filepath = argv[2];
+        if(filepath == ".")
+        {
+            return commands::addAll();
+        }
         return commands::add(filepath);
     }
-
     std::cout << "Commande inconnue: " << cmd << std::endl;
     return 1;
 }
