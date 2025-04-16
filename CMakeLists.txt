@@ -12,7 +12,9 @@ add_executable(mygit
     src/main.cpp 
     src/commands/init.cpp
     src/commands/HashObject.cpp
+    src/commands/add.cpp
     src/objets/Blob.cpp
     src/objets/Utilities.cpp
+    src/objets/index.cpp   
 )
 target_link_libraries(mygit ${OPENSSL_LIBRARIES})

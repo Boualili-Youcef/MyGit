@@ -2,6 +2,7 @@
 #include <string>
 #include "commands/init.hpp"
 #include "commands/HashObject.hpp"
+#include "commands/add.hpp"
 
 
 int main(int argc, char *argv[])
@@ -35,6 +36,16 @@ int main(int argc, char *argv[])
         }
 
         return commands::hashObject(filename, store);
+    }
+
+    if(cmd == "add")
+    {
+        if (argc < 3) {
+            std::cout << "Usage: mygit add <file>" << std::endl;
+            return 1;
+        }
+        std::string filepath = argv[2];
+        return commands::add(filepath);
     }
 
     std::cout << "Commande inconnue: " << cmd << std::endl;

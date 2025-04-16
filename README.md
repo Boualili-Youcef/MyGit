@@ -61,6 +61,9 @@ make
 
 # Hash a file and store it in the object database
 ./mygit hash-object -w <file>
+
+# Add file to staging area (index)
+./mygit add <file>
 ```
 
 ## Learning Objectives
@@ -69,4 +72,14 @@ This project serves as a practical exploration of:
 - Content-based addressing and hashing
 - Efficient storage mechanisms
 - Version control concepts and algorithms
+
+## Project Progress
+
+- [x] Repository structure (`.myGit` directory)
+- [x] Object hashing (`hash-object`)
+- [x] Content-addressable storage (blobs in `.myGit/objects`)
+- [x] Index/staging area (`add` command)
+- [ ] Tree objects (directory representation)
+- [ ] Commit objects (snapshots with metadata)
+- ...
 
