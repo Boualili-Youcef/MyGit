@@ -3,6 +3,7 @@
 #include "commands/init.hpp"
 #include "commands/HashObject.hpp"
 
+
 int main(int argc, char *argv[])
 {
     if (argc < 2) {
